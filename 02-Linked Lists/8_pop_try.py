@@ -69,47 +69,50 @@ print("#####Linked List")
 my_ll.print_list()
 
 print("\n#####After pop")
-print("poped value: ",my_ll.pop().value)
+print("poped value: ",my_ll.pop())
 print("-----Linked List")
 my_ll.print_list()
 
 print("\n#####After one more pop")
-print("poped value: ",my_ll.pop().value)
+print("poped value: ",my_ll.pop())
 print("-----Linked List")
 my_ll.print_list()
 
 print("\n#####After one more pop")
-print("poped value: ",my_ll.pop().value)
+print("poped value: ",my_ll.pop())
 print("-----Linked List")
 my_ll.print_list()
 
 print("\n#####After one more pop")
-my_ll.pop()
+print("poped value: ",my_ll.pop())
 print("-----Linked List")
 my_ll.print_list()
 
 """
+    Expected Output
+    ---------------
     #####Linked List
     1
     3
     6
 
     #####After pop
-    poped value:  6
+    poped value:  <__main__.Node object at 0x000001E2F1A4C810>
     -----Linked List
     1
     3
 
     #####After one more pop
-    poped value:  3
+    poped value:  <__main__.Node object at 0x000001E2F1A4C7D0>
     -----Linked List
     1
 
     #####After one more pop
-    poped value:  1
+    poped value:  <__main__.Node object at 0x000001E2F1A4C790>
     -----Linked List
 
     #####After one more pop
+    poped value:  None
     -----Linked List
 
 """
