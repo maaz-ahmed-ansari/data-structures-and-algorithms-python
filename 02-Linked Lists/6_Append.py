@@ -29,10 +29,12 @@ class LinkedList:
 
     def append(self, value):
         new_node = Node(value)
+        # note while comparing for head, use head itself rather than head.value or head.next
         if self.head is None:
             self.head = new_node
             self.tail = new_node
         else:
+            # note here to tail.next we are assigning the new node itself i.e. both attributes value and next of new node
             self.tail.next = new_node
             self.tail = new_node
 

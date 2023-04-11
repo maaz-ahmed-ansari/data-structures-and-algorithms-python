@@ -1,3 +1,5 @@
+# To define a LL constructor, we need 
+
 class Node:
     def __init__(self, value):
         self.value = value
